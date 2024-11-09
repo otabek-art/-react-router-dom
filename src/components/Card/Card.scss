@@ -1,0 +1,57 @@
+.card{
+    border: 2px solid rgba(122, 144, 243, 0.918);
+    max-width: 300px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 13px;
+    margin-top: 40px;
+    background-color: rgba(13, 55, 145, 0.445);
+    transition: 0.3s;
+
+
+    backdrop-filter: blur(10px);
+
+    &:hover{
+        scale: 1.05;
+        box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.801);
+        color: rgba(121, 13, 13, 0.842);
+        background-color: rgba(255, 34, 34, 0.712);
+        border: 2px solid rgba(156, 3, 3, 0.541);
+    }
+
+
+
+
+    img{
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+
+    }
+    h3{
+        text-align: center;
+        color: rgba(0, 46, 145, 0.445);
+        font-weight: 600;
+    }
+
+    p{
+        text-align: center;
+        color: rgba(3, 2, 88, 0.616);
+    }
+
+    button{
+        padding: 10px;
+        background-color: rgba(26, 87, 219, 0.445);
+        color: white;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+    
+}
